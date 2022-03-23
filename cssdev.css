@@ -32,6 +32,20 @@ body {
     display: flex;
     gap: 65px;
 }
+.item-menu:link {
+    color: #000;
+    text-decoration: none;
+
+}
+.item-menu:visited {
+    color: blue;
+    text-decoration: none;
+}
+.item-menu:hover {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
 .area-principal {
     display: flex;
     flex-direction: row;
