@@ -10,10 +10,13 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    font-family: 'roboto', sans-serif;
 }
 body {
+    font-size: 100%;
     font-family: 'ROBOTO', sans-serif;
 }
+
 
 .header{
     display: flex;
@@ -22,6 +25,7 @@ body {
     justify-content: space-around;
     padding: 25px;
     border-bottom: 1px solid #000;
+    gap: 100px;
     
 }
 
@@ -31,6 +35,9 @@ body {
 .menu {
     display: flex;
     gap: 65px;
+}
+.item-menu {
+    font-size: 22px;
 }
 .item-menu:link {
     color: #000;
@@ -51,66 +58,45 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 25px;
+    padding: 50px;
 }
 .conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    gap: 40px;
 
 }
 .titulo {
-    font-size: 58px;
-    text-align: center;
-    font-style: normal;
     font-weight: 900;
-    line-height: 56px;
-    position: absolute;
-    width: 496px;
-    height: 145px;
-    left: 140px;
-    top: 266px;
-}
-.text {
-    position: absolute;
-    width: 374px;
-    height: 92px;
-    left: 201px;
-    top: 411px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-
-}
-.botao {
-    position: absolute;
     font-size: 50px;
-    border: 0;
-    margin-bottom: 1px;
-    background-color: #FFB800;
-    border-radius: 30px;
-    color: white;
-    width: 425px;
-    height: 100px;
-    left: 190px;
-    top: 590px;
-
 }
 
 
+.botao {
+    height: 100px;
+    width: 420px;
+    background-color: #FFB800;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    /* estudar a propriedade transition*/
+    
+}
 
 .botao:hover {
-    background: #FF900E;
+    background-color: #FF900E;
 }
 
 .rodape{
-   width: auto;
-   height: auto;
-   padding: 100px;
-   margin-top: 15px;
+   padding: 50px;
    border-top: 1px solid #000;
-   margin-bottom: -50px;
+
 }
 .rodapetext {
     text-align: center;
